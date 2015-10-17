@@ -1,0 +1,26 @@
+<joblist>
+  <job>
+    <description></description>
+    <dispatch>
+      <excludePrecedence>true</excludePrecedence>
+      <keepgoing>false</keepgoing>
+      <rankOrder>ascending</rankOrder>
+      <threadcount>1</threadcount>
+    </dispatch>
+    <executionEnabled>true</executionEnabled>
+    <id>4de6d182-074c-45d8-8b0e-2e972b3715c3</id>
+    <loglevel>INFO</loglevel>
+    <name>lsするだけ</name>
+    <nodefilters>
+      <filter>sakura</filter>
+    </nodefilters>
+    <nodesSelectedByDefault>true</nodesSelectedByDefault>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>ls</exec>
+      </command>
+    </sequence>
+    <uuid>4de6d182-074c-45d8-8b0e-2e972b3715c3</uuid>
+  </job>
+</joblist>

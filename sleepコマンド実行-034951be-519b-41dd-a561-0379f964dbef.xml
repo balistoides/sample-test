@@ -1,0 +1,48 @@
+<joblist>
+  <job>
+    <context>
+      <options preserveOrder='true'>
+        <option enforcedvalues='true' name='message' required='true' value='opt1' values='opt1,opt2,opt3'>
+          <description>message option description </description>
+        </option>
+        <option name='message2' value='opta' values='opta,optb,optc' />
+      </options>
+    </context>
+    <description><![CDATA[sleepコマンドを実行するんです
+=======
+
+こんな感じでね
+-----------
+ 
+A [link](http://example.com).
+
+Shopping list:
+
+  * apples
+  * oranges
+  * pears
+  * 
+  ]]></description>
+    <dispatch>
+      <excludePrecedence>true</excludePrecedence>
+      <keepgoing>false</keepgoing>
+      <rankOrder>ascending</rankOrder>
+      <threadcount>1</threadcount>
+    </dispatch>
+    <executionEnabled>true</executionEnabled>
+    <id>034951be-519b-41dd-a561-0379f964dbef</id>
+    <loglevel>INFO</loglevel>
+    <name>sleepコマンド実行</name>
+    <nodefilters>
+      <filter>sakura</filter>
+    </nodefilters>
+    <nodesSelectedByDefault>true</nodesSelectedByDefault>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>hoge.php</exec>
+      </command>
+    </sequence>
+    <uuid>034951be-519b-41dd-a561-0379f964dbef</uuid>
+  </job>
+</joblist>
