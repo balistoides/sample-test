@@ -1,0 +1,19 @@
+<joblist>
+  <job>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>4c614703-785a-4420-988b-b3eefecb3456</id>
+    <loglevel>INFO</loglevel>
+    <name>もういっちょ2</name>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <script><![CDATA[#!/bin/bash
+id
+]]></script>
+        <scriptargs />
+      </command>
+    </sequence>
+    <uuid>4c614703-785a-4420-988b-b3eefecb3456</uuid>
+  </job>
+</joblist>
